@@ -1,4 +1,9 @@
 @import 'node_modules/bootstrap/dist/css/bootstrap.css';
+body {
+  background-color: #212529;
+  font-family: "Open Sans", sans-serif;
+}
+
 /*navbar*/
 .container_navigation {
   align-items: center;
