@@ -8,6 +8,7 @@
   border: 2px solid white;
   width: 4vw;
   height: 4vw;
+  justify-content: center;
   background-image: url(../../assets/img/testimonio1.jpg);
   border-radius: 50%;
   background-size: cover;
@@ -17,8 +18,8 @@
 
 .testimonios__image2 {
   border: 2px solid white;
-  width: 60px;
-  height: 60px;
+  width: 4vw;
+  height: 4vw;
   background-image: url(../../assets/img/testimonio2.jpg);
   border-radius: 50%;
   background-size: cover;
@@ -33,7 +34,7 @@
   background-image: url(../../assets/img/testimonio3.jpg);
   border-radius: 50%;
   background-size: cover;
-  background-position: right;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -83,8 +84,14 @@ hr {
 
 .image_QuSo {
   width: 100%;
+  height: 500px;
 }
 
+@media (max-width: 768px) {
+  .image_QuSo {
+    height: 300px;
+  }
+}
 .paragraph_QuSo {
   color: white;
 }

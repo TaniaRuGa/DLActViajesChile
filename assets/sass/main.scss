@@ -37,6 +37,12 @@ hr{
 }
 .image_QuSo{
     width: 100%;
+    height: 500px;
+}
+@media (max-width: 768px){
+    .image_QuSo{
+        height: 300px;
+    }
 }
 .paragraph_QuSo{
     color: white;
